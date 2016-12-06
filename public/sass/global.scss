@@ -1,0 +1,35 @@
+/* =========================================================================== */
+/* =========================================================================== */
+/* =========================================================================== */
+/* Archivos con extencion .css son derivados de archivos .scss! NO editar .css */
+/* Mas informacion http://sass-lang.com/ */
+/* =========================================================================== */
+/* =========================================================================== */
+/* =========================================================================== */
+
+// ========================================================= //
+// IMPORTS SASS FILES
+// ========================================================= //
+
+//mixin/variables
+@import "qlink/mixin";
+@import "variables/vars";
+
+//reset
+@import "base/reset";
+@import "base/input";
+@import "base/fonts";
+@import "base/reset-msj";
+
+//componentes
+@import "qlink/layout";
+@import "qlink/header";
+@import "qlink/content";
+@import "qlink/footer";
+@import "qlink/read-msj";
+@import "qlink/pre-msj";
+@import "qlink/delete-msj";
+
+
+//responsive
+@import "responsive/breakpoint";

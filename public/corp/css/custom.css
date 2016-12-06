@@ -1,0 +1,52 @@
+/* Custom css **/
+
+.faq-toggle {cursor: pointer;}
+.faq-toggle:hover {color: #0196a7;}
+.faq-content {display: none;}
+.faq-content.default {display: block;}
+
+
+.advisory {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background: whitesmoke;
+}
+
+.logo-advisor {
+	width: 94px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+header {
+	background: #365069 !important;
+}
+
+.download {
+	background: #365069 !important;
+}
+
+.standard-button {
+    height: 54px;
+}
+
+.single-advisor {
+	margin-top:10px;
+	height: 265px;
+}
+
+h3 {
+	color:#2BA1AF;
+}
+
+.video {
+	box-shadow: 0px 0px 15px -2px #000;
+}
+
+#how-it-works .phone-image {
+	margin-top:12px;
+}
+
+header .phone-image {
+    max-width: 430px;
+}

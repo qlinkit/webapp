@@ -1,0 +1,9 @@
+{{ $header }}
+{{ $detail }}
+{{ $video }}
+{{ $features }}
+{{ $download }}
+{{ $faq }}
+{{ $privacy }}
+{{ $advisory }}
+{{ $footer }}

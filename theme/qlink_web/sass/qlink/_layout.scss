@@ -1,0 +1,14 @@
+// Layout =============================================== //
+	.header {
+		.header-inner {
+			max-width: $site-width;
+			margin: 0 auto;
+		}
+	}
+	.content {
+		max-width: $mobile;
+		margin: 0 auto 50px auto;
+		margin-left: 0px;
+	}
+
+// ====================================================== //

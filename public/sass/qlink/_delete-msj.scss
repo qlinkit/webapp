@@ -1,0 +1,23 @@
+.delete-msj {
+	background: $color-primary-color;
+	.content {
+		.content-inner {
+			.qlink-content {
+				.qlink-inner {
+					text-align: center;
+					padding-bottom: 40px;
+					.trash-img {
+						width: 155px;
+						height: 140px;
+						margin: 0 auto;
+						background: url('#{$path-to-images}/sprites.png') no-repeat 32px -168px;
+					}
+					h1 {
+						margin-bottom: 30px;
+						margin-top: 20px;
+					}
+				}
+			}
+		}
+	}
+}

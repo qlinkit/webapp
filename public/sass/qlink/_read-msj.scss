@@ -1,0 +1,127 @@
+// Read mjs ============================================= //
+	.read-msj {
+		background: $color-page-bg-read-msj;
+		//header
+		.header  {}
+		//content
+		.qlink-read {
+			background: $color-bg-read-msj;
+			margin-bottom: 15px;
+			.header-msj {
+				background: $color-primary-color;
+				padding: 3px;
+				position: relative;
+				height: 25px;
+				.icon {
+					float: left;
+					width: 32px;
+					height: 33px;
+					background: url('#{$path-to-images}/sprites.png') no-repeat -70px -93px;
+					margin-top: -8px;
+					margin-left: 1px;
+				}
+				.title {
+					color: $color-second-text;
+					font-size: $font-size-large;
+					padding: 1px 0px 0 40px;
+					position: absolute;
+				}
+				.attach-file {
+					float: right;
+					width: 16px;
+					height: 25px;
+					background: url('#{$path-to-images}/sprites.png') no-repeat -185px -83px;
+					margin-right: 2px;
+				}
+			}
+			.qlink-msj {
+				padding: 13px 15px;
+				.qlink-msj-inner {
+					//_reset-msj.scss
+				}
+			}
+
+			//attach files
+			.mjs-attach-files {
+				padding: 15px;
+				.mjs-attach-files-inner {
+					.attach-header {
+						border-bottom: 1px solid $color-line;
+						margin-bottom: 7px;
+						h4 {
+							font-family: "droidsans_bold";
+							font-size: $font-size-regular;
+						}
+						.tool-dl-all {
+							float: right;
+							width: 24px;
+							height: 24px;
+							margin-left: -10px;
+							margin-top: -24px;
+							margin-right: 3px;
+							@include transition(all, 0s, ease-in-out);
+							background: url('#{$path-to-images}/sprites.png') no-repeat -185px -50px;
+							&:hover {
+								background: url('#{$path-to-images}/sprites.png') no-repeat -218px -50px;
+							}
+						}
+					}
+					ul.attach-file {
+						li {
+							padding: 3px 5px 3px 5px;
+							a {
+								color: $color-primary-text;
+								@include transition(all, 0s, ease-in-out);
+								.icon {
+									float: left;
+									width: 17px;
+									height: 25px;
+									margin-right: 8px;
+									background: url('#{$path-to-images}/sprites.png') no-repeat -211px -85px;;
+								}
+								.file-name {
+									float: left;
+									font-size: $font-size-small;
+									margin-top: 5px;
+								}
+								.tool-dl {
+									float: right;
+								}
+							}
+						}
+
+						li:hover {
+							padding-left: 5px;
+							background: $color-primary-color;
+							a {
+								color: $color-second-text;
+								.icon {
+									float: left;
+									width: 17px;
+									height: 25px;
+									margin-right: 8px;
+									background: url('#{$path-to-images}/sprites.png') no-repeat -235px -85px;;
+								}
+								.file-name {
+									float: left;
+									font-size: $font-size-small;
+									margin-top: 5px;
+								}
+								.tool-dl {
+									float: right;
+									width: 20px;
+									height: 25px;
+									background: url('#{$path-to-images}/sprites.png') no-repeat -286px -49px;
+									 &:hover {
+										background: url('#{$path-to-images}/sprites.png') no-repeat -254px -49px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+		}
+	}
+// ====================================================== //

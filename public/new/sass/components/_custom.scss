@@ -1,0 +1,772 @@
+.qlink-form {
+	width: 100% !important;
+}
+.chk_imprint {
+	width: 100%;
+    float: right;
+    text-align: right;
+}
+
+.chk_imprint label {
+	padding-right:0;
+}
+
+.file-input-name {
+	display:none !important;
+}
+
+.delattach {
+	margin-left: 10px;
+    margin-bottom: -6px;
+}
+
+.blockOverlay {
+	background: none !important;
+}
+
+.blockMsg {
+	border: none !important;
+	padding: 7px !important;
+	border-radius: 4px;
+	color: #fff !important;
+	background-color: #353535 !important;
+	border-radius: 5px;
+    box-shadow: inset 0 0 0 2px rgba(179, 238, 241, 0.91);
+}
+
+.blockMsg {
+ 	input {
+ 		&[type="button"] {
+ 			display:inline;
+ 			margin-top: 5px;
+ 		}
+ 	}
+ }
+
+#footer {
+    margin-top: 60px;
+}
+
+.leters-counter {
+	float: right;
+}
+
+.attached-files {
+	cursor: pointer;
+}
+
+.tool-bar .file-input-wrapper span {
+  cursor: pointer;
+}
+
+.social-icons {
+  float: right;
+  margin-top: 0px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.social-icons .social-icon {
+  float: left;
+  margin: 0 0px;
+}
+.social-icons .social-icon a {
+  width: 30px;
+  height: 30px;
+  display: block;
+  line-height: 0px;
+}
+.social-icons .social-icon-gp a {
+  background: url("/images/sprites.png") no-repeat -310px -5px;
+}
+.social-icons .social-icon-in a {
+  background: url("/images/sprites.png") no-repeat -105px 0px;
+}
+.social-icons .social-icon-tw a {
+  background: url("/images/sprites.png") no-repeat -276px -5px;
+}
+.social-icons .social-icon-fb a {
+  background: url("/images/sprites.png") no-repeat -240px -5px;
+}
+.social-icons .social-icon-ap a {
+  background: url("/images/sprites.png") no-repeat -310px -46px;
+}
+.social-icons .social-icon-yt a {
+  background: url("/images/sprites.png") no-repeat -310px -87px;
+}
+.social-icons .social-icon-g a {
+  background: url("/images/sprites.png") no-repeat -169px 0px;
+}
+.social-icons .social-icon-rss a {
+  background: url("/images/sprites.png") no-repeat -191px 0px;
+}
+.social-icons .social-icon-gp a:hover {
+  background-position: -310px -5px;
+  opacity: 0.7;
+}
+.social-icons .social-icon-in a:hover {
+  background-position: -105px 0px;
+  opacity: 0.7;
+}
+.social-icons .social-icon-tw a:hover {
+  background-position: -276px -5px;
+  opacity: 0.7;
+}
+.social-icons .social-icon-fb a:hover {
+  background-position: -240px -5px;
+  opacity: 0.7;
+}
+.social-icons .social-icon-ap a:hover {
+  background-position: -310px -46px;
+  opacity: 0.7;
+}
+.social-icons .social-icon-yt a:hover {
+  background-position: -310px -87px;
+  opacity: 0.7;
+}
+.social-icons .social-icon-g a:hover {
+  background-position: -169px 0px;
+  opacity: 0.7;
+}
+.social-icons .social-icon-rss a:hover {
+  background-position: -191px 0px;
+  opacity: 0.7;
+}
+
+.strength-container {
+	right: 0;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.strength-label {
+	background-color: #848484 !important;
+    padding: 5px;
+    font-size: 11px;
+}
+
+
+/* Add this attribute to the element that needs a tooltip */
+/* line 4, ../sass/qlink/_read-msj.scss */
+[data-tooltip] {
+  position: relative;
+  z-index: 100000;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+/* line 11, ../sass/qlink/_read-msj.scss */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+/* line 21, ../sass/qlink/_read-msj.scss */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -122px;
+  padding: 7px;
+  width: 160px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: rgba(51, 51, 51, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+    text-decoration: inherit;
+    text-transform: none;
+    white-space: normal;
+    font-weight: normal;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+/* line 42, ../sass/qlink/_read-msj.scss */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid rgba(51, 51, 51, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+/* line 58, ../sass/qlink/_read-msj.scss */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/********************************************************/
+/* Add this attribute to the element that needs a tooltip */
+/* line 68, ../sass/qlink/_read-msj.scss */
+[data-tooltip-l] {
+  position: relative;
+  z-index: 100000;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+/* line 75, ../sass/qlink/_read-msj.scss */
+[data-tooltip-l]:before,
+[data-tooltip-l]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+/* line 85, ../sass/qlink/_read-msj.scss */
+[data-tooltip-l]:before {
+  position: absolute;
+  bottom: 150%;
+  ///left: 5%;
+  right:0px;
+  margin-bottom: 5px;
+  padding: 7px;
+  width: 160px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: rgba(51, 51, 51, 0.9);
+  color: #fff;
+  content: attr(data-tooltip-l);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+/* line 105, ../sass/qlink/_read-msj.scss */
+[data-tooltip-l]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid rgba(51, 51, 51, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+/* line 121, ../sass/qlink/_read-msj.scss */
+[data-tooltip-l]:hover:before,
+[data-tooltip-l]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.share-menu {
+	display:none;
+	margin-top:10px;
+	padding-right: 6px;
+	padding-top: 5px;
+    border-top: solid 1px rgba(179, 238, 241, 0.91);
+}
+
+.share-menu button {
+	width:100%;
+	font-size: 0.6em !important;
+	margin-top: 3px;
+}
+
+.share-menu ul {
+	padding-left: 0em !important;
+	list-style: none !important;
+}
+
+.share-link {
+	width:100%;
+}
+
+#hash_result_text {
+    margin-bottom: 6px;
+    word-break: break-word;
+    height: 4.75em !important;
+}
+
+.expiry-time {
+    padding: 5px 5px 5px 13px;
+    background: rgb(97, 97, 97);
+    color: #fff;
+    font-size: 0.8em;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.trk-input-container-inp {
+	padding: 5px;
+    background: #616161;
+    border-radius: 3px;
+}
+.trk-show {
+	font-size:0.7em !important;
+	margin-top: 10px;
+}
+
+.qlink-it {
+	margin-top:10px;
+	width:100%;
+}
+
+#get-track {
+	display:none;
+}
+
+.share-menu button {
+	background:none;
+}
+
+#warnings {
+	margin: auto;
+    width: 66%;
+    font-size: 0.8em;
+    border-radius: 5px;
+    box-shadow: rgba(179, 238, 241, 0.909804) 0px 0px 0px 2px inset;
+    padding: 1.35em;
+    display: block;
+    margin-bottom:30px;
+}
+
+/* line 243, ../sass/qlink/_content.scss */
+.quick_warnings_message_title {
+  background: #FFE614;
+  width: 100%;
+  height: 27px;
+}
+/* line 247, ../sass/qlink/_content.scss */
+.quick_warnings_message_title p {
+  margin-left: 8px;
+  padding-top: 5px;
+  color: #000;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+/* line 254, ../sass/qlink/_content.scss */
+.quick_warnings_message_title_close {
+  float: right;
+  margin-right: 0;
+  cursor: pointer;
+  height: 100%;
+  padding-left: 17px;
+  background: rgba(255, 255, 255, 0.5);
+  display: inline-table;
+  padding-right: 17px;
+  color: #5f5f5f;
+  font-weight: bold;
+}
+/* line 266, ../sass/qlink/_content.scss */
+.quick_warnings_message_title_text {
+  float: left;
+  color: #ffffff;
+}
+
+#reply-qlink-button {
+	width: inherit !important;
+}
+    
+/* line 143, ../sass/qlink/_read-msj.scss */
+.read-msj .qlink-read .header-msj {
+  background: rgba(19, 185, 191, 0.84);
+  padding: 3px;
+  position: relative;
+  height: 39px;
+	border: solid 2px rgba(179, 238, 241, 0.91);
+	border-radius: 6px;
+	border-bottom: none;
+}
+/* line 148, ../sass/qlink/_read-msj.scss */
+.read-msj .qlink-read .header-msj .icon {
+  float: left;
+  width: 32px;
+  height: 33px;
+  background: url("/images/sprites.png") no-repeat -70px -93px;
+  margin-top: -8px;
+  margin-left: 1px;
+}
+/* line 156, ../sass/qlink/_read-msj.scss */
+.read-msj .qlink-read .header-msj .title {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 1px 0px 0 40px;
+  position: absolute;
+}
+/* line 162, ../sass/qlink/_read-msj.scss */
+.read-msj .qlink-read .header-msj .attach-file {
+  float: right;
+  width: 16px;
+  height: 25px;
+  display: none;
+  background: url("/images/sprites.png") no-repeat -185px -83px;
+  margin-right: 2px;
+}
+
+
+
+
+
+
+
+
+/* line 204, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message {
+    position: relative;
+    border: 0px;
+    z-index: 1002;
+    text-align: left;
+    box-shadow: 0px 0px 3px 0px #000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* line 216, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_success_message_title {
+    background: #FFE614;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 32px;
+}
+/* line 220, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_success_message_title p {
+  margin-left: 8px;
+  padding-top: 5px;
+  color: #282828;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+/* line 227, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_success_message_title .quick_success_message_title_close {
+  float: right;
+  margin-right: 0;
+  cursor: pointer;
+  height: 100%;
+  padding-left: 17px;
+  background: rgba(255, 255, 255, 0.5);
+  display: inline-table;
+  padding-right: 17px;
+  color: #5f5f5f;
+  font-weight: bold;
+  border-top-right-radius: 7px;
+}
+/* line 239, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_success_message_title .quick_success_message_title_text {
+  float: left;
+}
+/* line 243, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_warnings_message_title {
+  background: #FFE614;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 32px;
+}
+/* line 247, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_warnings_message_title p {
+  margin-left: 8px;
+  padding-top: 5px;
+  color: #282828;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+/* line 254, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_warnings_message_title .quick_warnings_message_title_close {
+  float: right;
+  margin-right: 0;
+  cursor: pointer;
+  height: 100%;
+  padding-left: 17px;
+  background: rgba(255, 255, 255, 0.5);
+  display: inline-table;
+  padding-right: 17px;
+  color: #5f5f5f;
+  font-weight: bold;
+  border-top-right-radius: 7px;
+}
+/* line 266, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_warnings_message_title .quick_warnings_message_title_text {
+  float: left;
+  color: #ffffff;
+}
+/* line 271, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_alert_message_title {
+  background: #FFE614;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 32px;
+}
+/* line 275, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_alert_message_title p {
+  margin-left: 8px;
+  padding-top: 5px;
+  color: #282828;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+/* line 282, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_alert_message_title .quick_alert_message_title_close {
+  float: right;
+  margin-right: 0;
+  cursor: pointer;
+  height: 100%;
+  padding-left: 17px;
+  background: rgba(255, 255, 255, 0.5);
+  display: inline-table;
+  padding-right: 17px;
+  color: #5f5f5f;
+  font-weight: bold;
+  border-top-right-radius: 7px;
+}
+/* line 294, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_alert_message_title .quick_alert_message_title_text {
+  float: left;
+}
+/* line 298, ../sass/qlink/_content.scss */
+.content .content-inner .quick_alert_message .quick_alert_message_msg {
+  padding: 13px;
+  font-size: 0.8em;
+}
+
+.new-qlink-button {
+	width: inherit;
+}
+
+
+
+.quick_usupport_message {
+  max-width: 609px;
+  position: absolute;
+  border: 0px;
+  z-index: 1002;
+  text-align: left;
+  box-shadow: 0px 0px 3px 0px #000;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 193px;
+}
+/* line 78, ../sass/qlink/_content.scss */
+.quick_usupport_message .quick_unsupport_message_title {
+  background: #FFE614;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 32px;
+}
+/* line 82, ../sass/qlink/_content.scss */
+.quick_usupport_message .quick_unsupport_message_title p {
+  margin-left: 8px;
+  padding-top: 5px;
+  color: #282828;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+/* line 90, ../sass/qlink/_content.scss */
+.quick_usupport_message .quick_alert_message_title {
+  background: #FFE614;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 32px;
+}
+/* line 94, ../sass/qlink/_content.scss */
+.quick_usupport_message .quick_alert_message_title p {
+  margin-left: 8px;
+  padding-top: 5px;
+  color: #282828;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+/* line 102, ../sass/qlink/_content.scss */
+.quick_usupport_message .quick_alert_message_msg {
+  padding: 13px;
+  font-size: 0.8em;
+}
+/* line 105, ../sass/qlink/_content.scss */
+.quick_usupport_message .quick_alert_message_msg img {
+  width: 46%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin-top: 30px;
+}
+
+
+
+/* line 171, ../sass/qlink/_read-msj.scss */
+.read-msj .qlink-read .qlink-msj {
+  padding: 13px 15px;
+  min-height: 150px;
+  max-height: 360px;
+  overflow-y: auto;
+}
+/* line 178, ../sass/qlink/_read-msj.scss */
+.read-msj .qlink-read .qlink-msj .qlink-msj-inner .hash_result_area {
+  word-break: break-word;
+  background: rgba(255, 255, 255, 0.07);
+  width: 100%;
+}
+/* line 183, ../sass/qlink/_read-msj.scss */
+.read-msj .qlink-read .qlink-msj .qlink-msj-inner .hash_result_area[disabled] {
+  word-break: break-word;
+  background: rgba(255, 255, 255, 0.07);
+  width: 100%;
+}
+/* line 188, ../sass/qlink/_read-msj.scss */
+.read-msj .qlink-read .qlink-msj .qlink-msj-inner .hash_result_area_i {
+  resize: vertical;
+  height: auto;
+  width: 100%;
+  float: left;
+  display: block;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.07);
+  max-width: 90%;
+  padding: 11px;
+  margin-bottom: 5px;
+  box-shadow: 1px 1px 3px #9f9f9f;
+}
+/* line 201, ../sass/qlink/_read-msj.scss */
+.read-msj .qlink-read .qlink-msj .qlink-msj-inner .hash_result_area_p {
+  resize: vertical;
+  height: auto;
+  width: 100%;
+  float: right;
+  display: block;
+  border-radius: 4px;
+  background: rgba(0, 250, 255, 0.07);
+  max-width: 90%;
+  padding: 11px;
+  margin-bottom: 5px;
+  box-shadow: 1px 1px 3px #9f9f9f;
+}
+/* line 214, ../sass/qlink/_read-msj.scss */
+.read-msj .qlink-read .qlink-msj .qlink-msj-inner .tx-res-one-only {
+  max-height: 300px;
+  width: 100%;
+  min-height: 300px;
+}
+
+.footer-read {
+	margin-top: 60px !important;
+}
+
+#last-qlink-message p {
+	color: #FFE614 !important;
+}
+
+.icon_h {
+	width: 29px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+
+.fa-truck:first-letter {
+    text-transform: uppercase;
+}
+
+.qlink-it-forward-mobile {
+	width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 0.7em;
+    max-width:270px;
+}
+
+.language-ul {
+	font-size:0.8em !important;
+}
+
+textarea {
+	color: #fff;
+    font-size: 1.0em;
+    font-weight: 500;
+    font-family: _font(family-heading);
+}
+
+#check-warnings {
+	font-size: 1.2em;
+}
+
+.qlink-read {
+	.blockMsg {
+		margin-top: 20px !important;
+	}
+}
+
+.tool-bar {
+	margin-bottom: 7px;
+    border-bottom: solid 1px rgba(179, 238, 241, 0.32);
+}
+
+.marketing-place-container {
+	margin-top: 20px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	text-align: center;
+    border-top: solid 2px rgba(179, 238, 241, 0.91);
+    padding-top: 35px;	
+    display:none;
+}
+.marketing-div {
+	display: inline;
+}
+img.marketing-img {
+    width: 20%;
+}
+
+#response-container {
+    margin-bottom: 85px;
+}
+
+.blockMsgPublic {
+    height: 94%;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+///MEDIAS
+#hash_result_text {
+		@include breakpoint(small) {
+			height: 4.75em !important;
+		}
+
+		@include breakpoint(xxsmall) {
+			height: 5.75em !important;
+		}
+}

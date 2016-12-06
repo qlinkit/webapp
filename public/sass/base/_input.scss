@@ -1,0 +1,39 @@
+/*global*/
+input:not([type]), 
+input[type="color"], 
+input[type="email"], 
+input[type="number"], 
+input[type="password"], 
+input[type="tel"], 
+input[type="url"], 
+input[type="text"] {
+	@include inputs;
+	&:focus {
+		@include transition(all, 0.2s, ease-in-out);
+		-moz-box-shadow: #959290 0 0 7px;
+		-webkit-box-shadow: #959290 0 0 7px;
+		box-shadow: #959290 0 0 7px;
+		outline: none;
+	}
+}
+input[type="button"], 
+input[type="submit"], 
+input[type="reset"], 
+input[type="file"], 
+button {
+	@include buttons;
+}
+textarea {
+	@include inputs (129px);
+	&:focus {
+		@include transition(all, 0.2s, ease-in-out);
+		-moz-box-shadow: #959290 0 0 7px;
+		-webkit-box-shadow: #959290 0 0 7px;
+		box-shadow: #959290 0 0 7px;
+		outline: none;
+	}
+}
+
+.button-negative { 
+	@include buttons ("negative");
+}

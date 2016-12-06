@@ -1,0 +1,79 @@
+//divice settings
+$desk:    900px;
+$table:   768px;
+$mobile:  480px;
+
+@mixin breakpoint($breakpoint) {
+  @if $breakpoint == "desktop" {
+    @media (max-width: $desk) and (min-width: $table+1px) {
+      @content;
+    }
+  }
+ 
+  @else if $breakpoint == "table" {
+    @media (max-width: 768px) and (min-width: $mobile+1px)  {
+      @content;
+    }
+  }
+ 
+  @else if $breakpoint == "mobile" {
+    @media (max-width: 480px) {
+      @content;
+    }
+  }
+}
+
+@include breakpoint ("desktop"){}
+@include breakpoint ("table")  {
+  .content .content-inner .top-content {
+    padding: 27px 0 27px 0 !important;
+  }
+  .content .content-inner .top-content .git-icon a {
+    right: 16px !important;
+  }
+  .content .content-inner .top-content h1 {
+    margin-right: 90px!important;
+  }
+  body h1 {
+    font-size: 1.4em;
+    line-height: 23px;
+
+  }
+}
+@include breakpoint ("mobile") {
+  body {
+    background: $color-bg-mobile !important;
+    .header {
+      position: relative;
+      z-index: 1;
+      border-bottom: 2px solid $color-primary-color;
+      padding: 10px 0px 0px 5px;
+
+    }
+    .logo {
+      margin-bottom: -9px;
+    }
+    .main-menu {
+      float: right;
+      margin: 0px;
+
+    }
+    .feedback-button,
+    .social-icons .social-icon,
+    .content .content-inner .top-content {display: none;}
+  }
+  .content .content-inner .qlink-content .qlink-inner .msj-instructions {
+    padding-right: 0px !important;
+  }
+  .content .content-inner .qlink-content .qlink-inner {
+    padding: $gutter;
+  }
+  .qlink-footer .qlink-link .qlink-link-inner {
+    margin-left: 0 !important;
+  }
+  .qlink-footer .expiry-time {
+    padding: 5px 7px 3px 7px !important;
+    margin-top: 1em !important;
+
+  }
+}

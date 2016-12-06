@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Qlink.it is a new, free, and very simple and secure way to send confidential info through the Internet.">
+<meta name="keywords" content="Security, Links, Encryption, Privacy">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- SITE TITLE -->
+<title>QLink - Sending confidential information securely throught the web</title>
+
+<!-- =========================
+      FAV AND TOUCH ICONS
+============================== -->
+<link rel="icon" href="corp/images/favicon.ico">
+<link rel="apple-touch-icon" href="corp/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="corp/images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="corp/images/apple-touch-icon-114x114.png">
+
+<!-- =========================
+     STYLESHEETS
+============================== -->
+<!-- BOOTSTRAP -->
+<link rel="stylesheet" href="corp/css/bootstrap.min.css">
+
+<!-- FONT ICONS -->
+<link rel="stylesheet" href="corp/assets/elegant-icons/style.css">
+<link rel="stylesheet" href="corp/assets/app-icons/styles.css">
+<!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
+
+<!-- WEB FONTS -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet' type='text/css'>
+
+<!-- CAROUSEL AND LIGHTBOX -->
+<link rel="stylesheet" href="corp/css/owl.theme.css">
+<link rel="stylesheet" href="corp/css/owl.carousel.css">
+<link rel="stylesheet" href="corp/css/nivo-lightbox.css">
+<link rel="stylesheet" href="corp/css/nivo_themes/default/default.css">
+
+<!-- ANIMATIONS -->
+<link rel="stylesheet" href="corp/css/animate.min.css">
+
+<!-- CUSTOM STYLESHEETS -->
+<link rel="stylesheet" href="corp/css/styles.css">
+
+<!-- COLORS -->
+<link rel="stylesheet" href="corp/css/colors/blue.css"> <!-- DEFAULT COLOR/ CURRENTLY USING -->
+<!-- <link rel="stylesheet" href="corp/css/colors/red.css"> -->
+<!-- <link rel="stylesheet" href="corp/css/colors/green.css"> -->
+<!-- <link rel="stylesheet" href="corp/css/colors/purple.css"> -->
+<!-- <link rel="stylesheet" href="corp/css/colors/orange.css"> -->
+<!-- <link rel="stylesheet" href="corp/css/colors/blue-munsell.css"> -->
+<!-- <link rel="stylesheet" href="corp/css/colors/slate.css"> -->
+<!-- <link rel="stylesheet" href="corp/css/colors/yellow.css"> -->
+
+<!-- RESPONSIVE FIXES -->
+<link rel="stylesheet" href="corp/css/responsive.css">
+
+
+<!--[if lt IE 9]>
+			<script src="corp/js/html5shiv.js"></script>
+			<script src="corp/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- JQUERY -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+	{{ $bodyView }}
+</body>
+</html>

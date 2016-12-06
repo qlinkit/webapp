@@ -1,0 +1,155 @@
+@import "../variables/vars";
+@import "../responsive/breakpoint";
+
+//Clearfix =================================
+	@mixin clearfix {
+	  &:after {
+	    content: ".";
+	    display: block;
+	    height: 0;
+	    clear: both;
+	    visibility: hidden;
+	  }
+	  * html & { height: 1px }
+	}
+//==========================================
+
+//@font-face mixin =========================
+	//@include font-face('family', '../fonts/', 'myfontname');
+	@mixin font-face($font-family, $font-url, $font-name) {
+		@font-face {
+	    	font: {
+	        	family: $font-family;
+	        	style: normal;
+	        	weight: normal;
+			}
+			src: url($font-url + '/' + $font-name + '.eot')  format('eot'), 
+				 url($font-url + '/' + $font-name + '.woff') format('woff'), 
+				 url($font-url + '/' + $font-name + '.ttf')  format('truetype'),
+				 url($font-url + '/' + $font-name + '.svg#' + $font-name) format('svg');
+		}
+	}
+//==========================================
+
+// Regular text ============================
+	@mixin font-regular-text {
+		font-family: "droid_sans_regular";
+		font-size: $font-size-regular;
+		color: $color-primary-text;
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+//==========================================
+
+// imputs ==================================
+	@mixin inputs ($input-height:22px, $margin-bottom:12px){
+		height: $input-height;
+		border: 0px;
+		padding: 5px 9px;
+		font-size: $font-size-small;
+		margin-bottom: $margin-bottom;
+		margin: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		resize: none;
+	}
+//==========================================
+
+// buttons =================================
+	@mixin buttons ($color:"default") {
+		border: 0px;
+		padding: 6px 5px;
+		font-size: $font-size-x-large;
+		cursor: pointer;
+		margin: 0;
+		@include transition(all, 0.2s, ease-in-out);
+		outline-color: $color;
+		@if $color == "default" {
+			color: $color-second-text;
+			background-color: $color-primary-color;
+			&:hover {
+				background: lighten( $color-primary-color, 10% );
+			}
+			
+		}
+		@if $color == "negative" {
+			color: $color-primary-color;
+			background-color: $color-second-text;
+			&:hover {
+				background: lighten( $color-second-text, 10% );
+			}
+			
+		}
+		@include breakpoint ("mobile") {
+			width: 100% !important;
+			margin-bottom: 10px;
+		}
+	}
+//==========================================
+
+// Transitions =============================
+// @include transition(all, 0.2s, ease-in-out);
+	@mixin transition($transition-property:all, $transition-time:0.2s, $method:ease-in-out) {
+	    -webkit-transition: $transition-property $transition-time $method;
+	    -moz-transition: $transition-property $transition-time $method;
+	    -ms-transition: $transition-property $transition-time $method;
+	    -o-transition: $transition-property $transition-time $method;
+	    transition: $transition-property $transition-time $method;
+	}
+
+	//no transition
+	@mixin no-transition {
+		-webkit-transition: all 0s ease-in-out;
+		-moz-transition: all 0s ease-in-out;
+		-ms-transition: all 0s ease-in-out;
+		-o-transition: all 0s ease-in-out;
+		transition: all 0s ease-in-out;
+		
+	}
+//==========================================
+
+// border radius ===========================
+	@mixin border-radius($radius:6px) {
+	  -moz-border-radius: $radius;
+	  -webkit-border-radius: $radius;
+	  -ms-border-radius: $radius;
+	  border-radius: $radius;
+	}
+//==========================================
+
+// box-shadow ==============================
+	@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+	    -webkit-box-shadow:$top $left $blur $color #{$inset};
+	    -moz-box-shadow:$top $left $blur $color #{$inset};
+	    box-shadow:$top $left $blur $color #{$inset};
+	}
+// =========================================
+
+// LOGO ====================================
+	@mixin website-logo {
+		background: url("#{$path-to-images}/logo.png") no-repeat top left;
+		width: 128px;
+		height: 35px;
+		float: left;
+		margin: 15px 0px 15px 1px;
+		display: block;
+	}
+//==========================================
+
+// Logo center =============================
+	@mixin logo-center () {
+		background: transparent !important;
+		margin: 0px 0px 33px 0px;
+  		padding-top: 18px !important;
+		.header-inner {
+			.logo {
+				float: none;
+				position: relative;
+				margin-bottom: -8px;
+				margin: 0 auto;
+				width: 100px;
+			}
+		}
+	}
+//==========================================

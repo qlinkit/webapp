@@ -1,0 +1,148 @@
+// content ============================================== //
+	.content {
+		.content-inner {
+			max-width: $site-width-inner;
+			margin: 0 auto;
+			.top-content {
+				padding: 46px 0 57px 0;
+				position: relative;
+				.git-icon a {
+					position: absolute;
+					display: block;
+					top: 20px;
+					right: -145px;
+					width: 48px;
+					height: 48px;
+					background: url('#{$path-to-images}/sprites.png') no-repeat -123px -42px;
+					@include transition(all, 0.0s, ease-in-out);
+					&:hover {
+						background-position: -123px -91px;
+
+					}
+				}
+				h1 {
+					padding-left: 80px;
+					letter-spacing: -1px;
+					position: relative;
+					&:before {
+						content: "";
+						position: absolute;
+						top: 5px;
+						left: $gutter-small;
+						width: 57px;
+						height: 74px;
+						background: url('#{$path-to-images}/sprites.png') no-repeat -4px -92px;
+					}
+				}
+			}
+			.qlink-content {
+				.qlink-inner {
+					background: url('#{$path-to-images}/textura_transparente.png') repeat 0px 0px;
+					padding: $gutter;
+
+					.qlink {
+						height: 258px;
+						background: $qlink-input-txt;
+						margin-bottom: $gutter-small;
+						position: relative;
+						.qlink-msj {
+							textarea {
+								width: 100%;
+								padding: 10px;
+								min-height: 242px;
+								margin: 0;
+								height: inherit;
+								-webkit-box-sizing: border-box;
+								-moz-box-sizing: border-box;
+								box-sizing: border-box;
+								resize: none;
+							}
+						}
+					}
+					.msj-instructions {
+						padding-right: 125px;
+						line-height: 17px;
+						margin-bottom: 9px;
+						p {
+							color: $color-second-text;
+							font-size: $font-size-small;
+							letter-spacing: 0.4px;
+						}
+					}
+
+				}
+			}
+		}
+	}	
+	// toolbar ===================== //
+		.tool-bar {
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+			height: 16px;
+			background: $color-bg-toolbar;
+			font-size: $font-size-tiny;
+			.toolbar-group {}
+
+			//butons
+			.tool {}
+			.tool-fs {}
+			.tool-txt-aling-left {}
+			.tool-txt-aling-center {}
+			.tool-txt-aling-rigth {}
+
+			.leters-counter {
+				float: right;
+				padding: 3px 3px 0px 3px;
+			}
+		}
+	// ============================= //
+	// qlink-link ================== //
+		.qlink-footer {
+			.qlink-it { 
+				float: left; 
+				width: 110px;
+				margin-right: -110px;
+				position: relative;
+			}
+			.qlink-link {
+				float: left;
+				width: 100%;
+				.qlink-link-inner {
+					border: 3px solid $color-primary-color;
+					margin-left: 120px;
+					.share-link {
+						display: block;
+						width: 41px;
+						height: 34px;
+						margin-right: -41px;
+						float: left;
+						background: $color-primary-color url('#{$path-to-images}/sprites.png') no-repeat -190px -126px;
+						position: relative;
+						box-shadow: 0px 0px 15px 0px $color-second-text;
+						&:hover { background-color: lighten( $color-primary-color, 10% ) }
+					}
+					input {
+						float: left;
+						width: 100%;
+						padding-left: 53px;
+						height: 34px;
+						font-size: $font-size-large; 
+					}
+				}
+			}
+			.expiry-time {
+				clear: both;
+				background: $color-dark;
+				color: $color-second-text;
+				line-height: normal;
+				padding: 3px 7px;
+				margin-top: $gutter-small;
+				float: right;
+				font-size: $font-size-tiny;
+				span {}
+			}
+		}
+	// ============================= //
+// ====================================================== //

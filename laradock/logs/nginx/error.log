@@ -1,0 +1,115 @@
+2016/12/04 20:37:59 [error] 9#9: *70 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Qlink\Models\Services\RedisService::set() in /var/www/app/src/Qlink/Controllers/LandingNewController.php on line 442" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/04 20:40:39 [error] 9#9: *81 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/04 20:44:02 [error] 9#9: *88 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/04 20:49:51 [error] 10#10: *96 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/04 20:56:56 [error] 9#9: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/04 21:04:52 [error] 8#8: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/04 21:12:59 [error] 7#7: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/04 21:13:38 [error] 10#10: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/04 21:14:06 [error] 9#9: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/04 23:36:29 [error] 8#8: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/04 23:40:36 [error] 9#9: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 00:06:23 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 00:06:23 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 00:06:37 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 00:14:41 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 00:14:41 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 00:15:20 [error] 9#9: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 00:50:32 [error] 9#9: *13 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 01:22:47 [error] 9#9: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 01:28:13 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 01:28:13 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 01:31:13 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 01:31:13 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 01:32:59 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 01:32:59 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 01:34:28 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 01:34:28 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 01:42:28 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 01:42:28 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 02:01:45 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 02:01:45 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 02:02:44 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 02:13:43 [error] 8#8: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 02:22:43 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 02:22:43 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 02:22:59 [error] 8#8: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 02:25:29 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 02:25:29 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 02:25:56 [error] 9#9: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 02:26:25 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 02:26:25 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 02:26:41 [error] 7#7: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 02:28:27 [error] 8#8: *13 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 133" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 02:48:58 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 02:48:58 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 02:50:35 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 02:50:35 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 02:51:05 [error] 7#7: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'MongoClient' not found in /var/www/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Connection.php on line 132" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "POST /inject HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 03:17:34 [emerg] 1#1: a duplicate default server for 0.0.0.0:80 in /etc/nginx/sites-available/default.conf.def:3
+2016/12/05 03:20:07 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 03:20:07 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 03:29:18 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 03:29:18 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 03:43:05 [error] 8#8: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined function env() in /var/www/app/config/production/database.php on line 51" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "qlink"
+2016/12/05 03:45:03 [error] 9#9: *70 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class env does not exist' in /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+Stack trace:
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(504): ReflectionClass->__construct('env')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(428): Illuminate\Container\Container->build('env', Array)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(462): Illuminate\Container\Container->make('env', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(806): Illuminate\Foundation\Application->make('env')
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(238): Illuminate\Container\Container->offsetGet('env')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(220): Illuminate\Foundation\Application->environment()
+#6 /var/www/vendor/laravel/fra" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "qlink"
+2016/12/05 03:45:08 [error] 9#9: *70 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class env does not exist' in /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+Stack trace:
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(504): ReflectionClass->__construct('env')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(428): Illuminate\Container\Container->build('env', Array)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(462): Illuminate\Container\Container->make('env', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(806): Illuminate\Foundation\Application->make('env')
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(238): Illuminate\Container\Container->offsetGet('env')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(220): Illuminate\Foundation\Application->environment()
+#6 /var/www/vendor/laravel/fra" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "qlink"
+2016/12/05 03:45:10 [error] 9#9: *70 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class env does not exist' in /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+Stack trace:
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(504): ReflectionClass->__construct('env')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(428): Illuminate\Container\Container->build('env', Array)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(462): Illuminate\Container\Container->make('env', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(806): Illuminate\Foundation\Application->make('env')
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(238): Illuminate\Container\Container->offsetGet('env')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(220): Illuminate\Foundation\Application->environment()
+#6 /var/www/vendor/laravel/fra" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "qlink"
+2016/12/05 03:55:13 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 03:55:13 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 13:04:49 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 13:04:49 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 13:13:52 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 13:13:52 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 13:17:33 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 13:17:33 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 13:19:29 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 13:19:29 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 13:27:38 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 13:27:38 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 13:28:16 [error] 8#8: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Qlink\Controllers\LandingController' not found in /var/www/app/storage/views/e84173e48ec53cf95c64dee0da296c4c on line 40" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "qlink"
+2016/12/05 13:28:17 [error] 8#8: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Qlink\Controllers\LandingController' not found in /var/www/app/storage/views/e84173e48ec53cf95c64dee0da296c4c on line 40" while reading response header from upstream, client: 172.18.0.1, server: qlink, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "qlink", referrer: "http://qlink/"
+2016/12/05 13:56:21 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 13:56:21 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 14:21:58 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 14:21:58 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 15:04:19 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 15:04:19 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 16:20:22 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 16:20:22 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 16:29:35 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 16:29:35 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 17:00:52 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 17:00:52 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 17:07:40 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 17:07:40 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 17:12:58 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 17:12:58 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 17:15:10 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 17:15:10 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored
+2016/12/05 17:44:19 [warn] 1#1: conflicting server name "qlink" on 0.0.0.0:80, ignored
+2016/12/05 17:44:19 [warn] 1#1: conflicting server name "qlink" on [::]:80, ignored

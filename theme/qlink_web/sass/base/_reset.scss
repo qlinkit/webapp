@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+ 
+.clearfix {	@include clearfix; }
+
+.hidden { display: none; }
+
+.left 	{ float: left; }
+
+.right 	{ float: right; }
+
+.strong { font-weight: bold; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+.public-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  .public-left {  
+    width: 494px;
+    height: 100%;
+    float: left;
+  }
+  .public-right {
+    width: 100%;
+    height: 100%;
+    margin-left: 494px;
+    .public-img {
+    	width: 100%;
+  	height: 100%;
+	.public-gradient {
+		height: 100%;
+		width: 160px;
+		float: left;
+        }
+    }
+  }
+}
+
+.bg0 {
+  background: #fff url("#{$path-to-images}/bg23.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+.bg1 {
+        background: #fff url("#{$path-to-images}/bg24.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+.bg2 {
+        background: #fff url("#{$path-to-images}/bg25.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+.bg3 {
+        background: #fff url("#{$path-to-images}/bg26.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+.bg4 {
+        background: #fff url("#{$path-to-images}/bg27.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+.bg5 {
+        background: #fff url("#{$path-to-images}/bg28.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+.bg6 {
+        background: #fff url("#{$path-to-images}/bg29.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+.bg7 {
+        background: #fff url("#{$path-to-images}/bg30.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+.bg8 {
+        background: #fff url("#{$path-to-images}/bg31.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+.bg9 {
+        background: #fff url("#{$path-to-images}/bg32.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+.bg10 {
+        background: #fff url("#{$path-to-images}/bg33.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+body {
+  line-height: 1;
+//  background: #fff url("#{$path-to-images}/bg0.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @include font-regular-text;
+  font-size: $font-size-base;
+  line-height: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+ 
+blockquote, q {
+  quotes: none;
+}
+ 
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';	
+  content: none;
+}
+ 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.em,
+em {
+}
+
+
+h1 { 
+  font-size: $font-size-xx-large;
+  color: $color-second-text;
+  line-height: 36px;
+  font-style: italic;
+}
+h2 {  }
+h3 {  }
+h4 {  }
+
+p {  }
+
+strong {}
+
+a {
+  color: $color-main-menu-text;
+	text-decoration:none;
+	@include transition(all, 0.2s, ease-in-out);
+	&:hover {
+		color: lighten( $color-main-menu-text-hover, 10% );
+	}
+}
+
+.hover {
+  background: #1ce1e8;
+}
+
+.logo-center { @include logo-center; }

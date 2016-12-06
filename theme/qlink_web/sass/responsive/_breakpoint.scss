@@ -1,0 +1,262 @@
+//divice settings
+$desk:    900px;
+$table:   768px;
+$mobile:  480px;
+
+@mixin breakpoint($breakpoint) {
+  @if $breakpoint == "desktop" {
+    @media (max-width: $desk) and (min-width: $table+1px) {
+      @content;
+    }
+  }
+ 
+  @else if $breakpoint == "table" {
+    @media (max-width: 768px) and (min-width: $mobile+1px)  {
+      @content;
+    }
+  }
+ 
+  @else if $breakpoint == "mobile" {
+    @media (max-width: 480px) {
+      @content;
+    }
+  }
+}
+
+@include breakpoint ("desktop"){
+  .marketing-place-container {
+        right: inherit !important;
+        bottom: inherit !important;
+        position: inherit !important;
+        width: 100%;
+        height: 200px;
+        margin-top: 15px;
+  }
+}
+@include breakpoint ("table")  {
+  .content .content-inner .top-content {
+    padding: 27px 0 27px 0 !important;
+  }
+  .content .content-inner .top-content .git-icon a {
+    right: 16px !important;
+  }
+  .content .content-inner .top-content h1 {
+    margin-right: 90px!important;
+  }
+  body h1 {
+    font-size: 1.4em;
+    line-height: 23px;
+
+  }
+  .trk-hiper-container {
+    display:inline-block;
+    padding-top:9px;
+    display: block;
+    width: 99%;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: -1px;
+    border-top: 1px solid #13b8be;
+    .trk-input-container {
+      float:right;
+      margin-right:0;
+    }
+  }
+  .marketing-place-container {
+        right: inherit !important;
+        bottom: inherit !important;
+        position: inherit !important;
+        width: 100%;
+        height: 200px;
+        margin-top: 158px;
+  }
+}
+@include breakpoint ("mobile") {
+  body {
+    .header {
+      position: relative;
+      z-index: 1;
+      border-bottom: 2px solid $color-primary-color;
+      padding: 10px 0px 0px 5px;
+
+    }
+    .logo {
+      margin-bottom: -9px;
+    }
+    .main-menu {
+      float: right;
+      margin: 0px;
+      margin-top: 6px;
+    }
+    .social-icons {
+	position: absolute;
+  	margin-top: 42px;
+  	margin-left: 6px;
+    }
+    .feedback-button,
+    .content .content-inner .top-content {
+         display: none !important;
+    }
+  }
+  .content .content-inner .qlink-content .qlink-inner .msj-instructions {
+    padding-right: 0px !important;
+  }
+  .content .content-inner .qlink-content .qlink-inner {
+    padding: $gutter;
+  }
+  .content .content-inner .quick_help_message {
+    position: relative !important;
+  }
+
+  .qlink-footer .qlink-link .qlink-link-inner {
+    margin-left: 0 !important;
+  }
+  .qlink-footer .expiry-time {
+    padding: 5px 7px 3px 7px !important;
+    margin-top: 1em !important;
+
+  }
+  .qlink-footer .qlink-link .qlink-link-inner {
+	input {
+		margin-top: -9px !important;
+    padding: 9px !important;
+    height: 80px !important;
+		word-break: break-word !important;
+		font-weight: bold !important;
+	}
+  }
+  .qlink-footer .qlink-link .share-menu {
+	margin-left: 0px !important;
+	li {
+		height:30px !important;
+	}	
+  }
+  .read-msj {
+	background: $color-page-bg-read-msj;
+  }
+  .read-msj .qlink-read .header-msj {
+	height: 40px !important;
+  }
+  .read-msj .qlink-read .header-msj .title {
+	word-break: break-word !important;
+	padding-right: 25px !important;
+  }
+  .read-msj .qlink-read .header-msj .icon {
+	height: 46px !important;
+	background: url("../images/sprites.png") no-repeat -70px -83px !important;
+  }
+  .logo-center {
+	margin: -1px 0px 0px 0px !important;
+  }
+  .header .header-inner {
+	margin-bottom: 14px !important;
+  }
+  .read-msj .qlink-read {
+	margin-bottom: 1px !important;
+  }
+
+  .share_title_button {
+	display:inline !important;
+  }
+  .qlink-it-mobile {
+	display:block !important;
+  }
+  .qlink-it-desk {
+        display:none !important; 
+  }
+  .qlink-it-mobile {
+	margin-top:16px;
+  }
+  .content .content-inner .qlink-content .qlink-inner {
+	 background: none !important;
+	 padding: 0em !important;
+  }
+  .trk-input-container {
+    margin-left: 3px !important;
+    margin-top: 42px !important;
+    float: left !important;
+  }
+  .qlink-it-forward {
+	margin-left: 0px !important;
+  width: 90% !important;
+  }
+  .qlink-it-forward-help {
+    width:10% !important;
+    float:left;
+  }
+  .new-qlink-button {
+	margin-left:0px !important;
+  }
+  .trk-fast .trk-input-container {
+  	margin: 0;
+	  padding: 0;
+	  padding-left:10px;
+  }
+  .qlink-footer .trk-number-container .trk-number {
+	 height: 74px !important;
+   width: 95% !important;
+  }
+  .trk-mobile-none {
+    display:none !important;
+  }
+  .trk-number-container {
+    margin-top: -8px !important;
+  }
+  .qlink-footer .expiry-time {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    float:left !important;
+  }
+  .trk-hiper-container {
+    display: block;
+    width: 99%;
+    height: 72px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: -8px;
+    border-top: 1px solid #13b8be;
+  }
+  .language-ul {
+	 padding-right: 6px;
+  }
+  .content .content-inner .qlink-content .qlink-inner .qlink .qlink-msj .quick_message_title p {
+    min-height: 42px;
+  }
+  .marketing-place-container {
+        right: inherit !important;
+        bottom: inherit !important;
+        position: inherit !important;
+        width: 100%;
+        height: 200px;
+        margin-top: 158px;
+  }
+  .marketing-place-container .marketing-div {
+    zoom: 0.9;
+  }
+  .trk-fast .trk-input-container {
+    margin-top: 5px !important;
+  }
+  .content .content-inner .qlink-content .move-mouse-entropy {
+    max-width: 95px;
+  }
+  .content .content-inner .qlink-content .strength-label {
+    padding-top: 11px !important;
+    height: 19px !important;
+  }
+  .strength-container {
+    height: 35px !important;
+  }
+  #entropy-container {
+    height: 31px !important;
+  }
+  #entropy-system-bar {
+    height: 31px !important;
+  }
+  #entropy-bar {
+    height: 31px !important;
+  }
+  .flecha_derecha {
+    border-top: 12px solid transparent !important;
+    border-bottom: 13px solid transparent !important;
+  }
+}

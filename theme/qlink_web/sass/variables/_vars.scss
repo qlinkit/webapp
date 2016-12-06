@@ -1,0 +1,72 @@
+
+//set defaul urls
+$path-to-images : "../images";
+$path-to-fonts :  "../fonts";
+
+//laravel path
+//$path-to-images : 	"/images";
+//$path-to-fonts : 	"/fonts";
+
+//site gutters
+$gutter-tyny:	0.313em; //5px;
+$gutter-small:	0.500em; //8px;
+$gutter:		0.938em; //15px;
+$gutter-large:	1.875em; //30px;
+
+//divice settings
+$desk:    900px;
+$table:   768px;
+$mobile:  480px;
+
+//font size
+$font-size-base:		16px;
+
+$font-size-tiny: 		0.625em; //10px
+$font-size-small: 		0.850em; //12px
+$font-size-regular: 	0.875em; //14px
+$font-size-large: 		1.125em; //18px
+$font-size-x-large: 	1.200em; //24px
+$font-size-xx-large: 	1.775em; //30px
+$font-size-xxx-large: 	0px;
+
+
+//Colors
+$color-primary-color: 	#13b8be;
+$color-primary-text: 	#535353;
+$color-second-text: 	#ffffff;
+
+$color-dark:		 	#000000;
+
+$color-line:			#cccccc;
+
+$color-header:			#ffffff;
+$color-content:			#6694c5;
+$color-footer:			#ffffff;
+
+$qlink-input-txt: 		#ffffff;
+$color-bg-toolbar: 		#eeeeee;
+$color-bg-mobile: 		#7f7f7f;
+
+$color-page-bg-read-msj:		#dcdbdb;
+$color-bg-read-msj:				#ffffff;
+
+//main-menu colors
+$color-main-menu-text:			#535353;
+$color-main-menu-text-hover:	#13b8be;
+
+//Layout
+$site-width:	 	$desk;
+$site-width-inner: 	610px;
+$contet: 			567px;
+
+
+//@mixin arrow-deco
+//arrows directions
+$arrow-top 		: 0px 8px 8px 8px;
+$arrow-bot 		: 8px 8px 0px 8px;
+$arrow-left 	: 8px 0px 8px 8px;
+$arrow-right 	: 8px 8px 8px 0px;
+
+
+
+

@@ -1,0 +1,10 @@
+/*font family ============*/
+//font-family: "droid_sans_regular";
+@include font-face('droid_sans_regular', '#{$path-to-fonts}/droid_sans_regular', 'droid_sans_regular');
+
+//font-family: "droidsans_bold";
+@include font-face('droidsans_bold', '#{$path-to-fonts}/droidsans_bold', 'droidsans_bold');
+
+//font-family: "molle_regular";
+@include font-face('molle_regular', '#{$path-to-fonts}/molle_regular', 'molle_regular');
+/* ====================== */

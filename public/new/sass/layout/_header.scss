@@ -1,0 +1,181 @@
+///
+/// Solid State by HTML5 UP
+/// html5up.net | @n33co
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Header */
+
+	#header {
+		@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+		background-color: transparentize(desaturate(lighten(_palette(bg), 3), 1.5), 0.05);
+		height: 2.5em;
+		left: 0;
+		line-height: 3.0em;
+		padding: 0 1.25em;
+		position: absolute;
+		margin-top: 0;
+		top: 0;
+		width: 100%;
+		z-index: _misc(z-index-base);
+
+		#m1 {
+			display:block;
+		}
+
+		#m2 {
+			display:none;
+		}
+
+		h1 {
+			@include vendor('transition', (
+				'opacity #{_duration(transition)} ease-in-out',
+				'visibility #{_duration(transition)}'
+			));
+			border-bottom: 0;
+			font-size: 0.8em;
+			margin-bottom: 0;
+			opacity: 1;
+			visibility: visible;
+
+			a {
+				border: 0;
+			}
+		}
+
+		nav {
+			font-family: _font(family-heading);
+			font-size: 0.8em;
+			font-weight: _font(weight-heading-bold);
+			height: 2em;
+			letter-spacing: _font(kern-heading);
+			line-height: 2em;
+			position: absolute;
+			right: 0.7em;
+			text-transform: uppercase;
+			top: 0.7em;
+
+			a {
+				border: 0;
+				display: inline-block;
+				padding: 0 1em;
+
+				&:before {
+					float: right;
+					margin-left: 0.75em;
+				}
+
+				&[href="#menu"] {
+					@include icon;
+					@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+					border-radius: _size(border-radius);
+					box-shadow: inset 0 0 0 2px _palette(border-menu);
+					padding: 0 1.35em;
+
+					&:before {
+						content: '\f0c9';
+					}
+
+					&:hover {
+						background-color: _palette(border-bg);
+					}
+
+					&:active {
+						background-color: _palette(border2-bg);
+					}
+				}
+			}
+		}
+
+		&.alt {
+			background-color: #1B1B1B;
+    		box-shadow: 0px 0px 8px 0px #14D2C9;
+    		overflow: hidden;
+    		
+			h1 {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+
+		@include breakpoint(small) {
+			height: 2.75em;
+			line-height: 2.75em;
+
+			nav {
+				top: 0;
+				right: 0;
+				height: inherit;
+				line-height: inherit;
+
+				a {
+					height: inherit;
+					line-height: inherit;
+
+					&[href="#menu"] {
+						box-shadow: none;
+						padding: 0 1em;
+						border-radius: 0;
+
+						&:hover, &:active {
+							background-color: inherit;
+						}
+					}
+				}
+			}
+		}
+
+		@include breakpoint(xsmall) {
+
+			nav {
+				a {
+					&[href="#menu"] {
+						
+
+						&:before {
+							width: inherit;
+							position: absolute;
+							top: 0;
+							left: 0;
+							text-indent: 0;
+							text-align: right;
+							margin-left: 0;
+							padding-right: 1.25em;
+						}
+					}
+				}
+			}
+
+			#m1 {
+				display:none;
+			}
+
+			#m2 {
+				display:block;
+			}
+		}
+
+		@include breakpoint(xxsmall) {
+			height: 4em;
+			.language {
+				max-width:280px;
+			}
+			.language-li {
+			    height: 2em;
+			}
+		}
+
+		@include breakpoint(ultrasmall) {
+			height: 4em;
+			///box-shadow: none !important;
+    		///background: none !important;
+
+			.language {
+				max-width:275px;
+			}
+
+			.language-li {
+			    height: 2em;
+			}
+		}
+	}
