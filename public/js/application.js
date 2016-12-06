@@ -1,6 +1,6 @@
 /*
 MIT License
-Copyright (c) 2016 Lucas Mingarro, Ricardo Bianchi, Ezequiel Alvarez, César Miquel
+Copyright (c) 2016 Lucas Mingarro, Ricardo Bianchi, Ezequiel Alvarez, César Miquel, Sebastián Manusovich
 https://opensource.org/licenses/MIT
 */
 

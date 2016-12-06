@@ -1,7 +1,7 @@
 <?php namespace Qlink\Models\Entities;         
 /**
  * MIT License
- * Copyright (c) 2016 Lucas Mingarro, Ezequiel Alvarez, César Miquel, Ricardo Bianchi
+ * Copyright (c) 2016 Lucas Mingarro, Ezequiel Alvarez, César Miquel, Ricardo Bianchi, Sebastián Manusovich
  * https://opensource.org/licenses/MIT
  *
  * @author Ricardo Bianchi <rbianchi@qlink.it>
