@@ -228,7 +228,8 @@ Do the following:
 4. In **laradock** folder of our project, run the following bash script to build and run docker containers:<br><br>
 ```
 cd laradock
-```<br>
+```
+
 ```
 ./createProyect.sh 
 ```
