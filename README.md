@@ -2,12 +2,12 @@
 
 ## Table of contents
 
-* [Requirements](/#requ) 
-* [Installation](/#inst)
-* [Configuration](/#conf)
-* [Run application](/#run)
-* [Dockerized application](/#dock)
-* [About](/#abou)
+* [Requirements](#requirements) 
+* [Installation](#installation)
+* [Configuration](#configuration)
+* [Run application](/#run-application)
+* [Dockerized application](#dockerized-application)
+* [About](#about)
 
 ### [Requirements](#requ)
 
