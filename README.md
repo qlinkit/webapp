@@ -180,8 +180,7 @@ To run the web application you need install and run a web application server as 
     127.0.0.1       qlink 
 ```
 
-3. Configure the nginx server to serve the qlink web application. For example, assuming / var / www is the main application folder, configure the new web server as follows:
-
+3. Configure the nginx server to serve the qlink web application. For example, assuming / var / www is the main application folder, configure the new web server as follows:<br><br>
 ```
 server {
 
@@ -217,24 +216,22 @@ If you do not have enough time to invest in the configuration and installation o
 
 Do the following:
 
-1. Run '**composer install**' as explained in the [Installation](#inst) section.
+a. Run '**composer install**' as explained in the [Installation](#inst) section.
 
-2. Add this enrty in your hosts file (usually /etc/hosts):<br><br>
+b. Add this enrty in your hosts file (usually /etc/hosts):<br><br>
 ```
     127.0.0.1       qlink 
 ```
-3. Install and run the **Docker Engine** following the steps described in [Install Docker](https://docs.docker.com/compose/install/).
+c. Install and run the **Docker Engine** following the steps described in [Install Docker](https://docs.docker.com/compose/install/).
 
-4. In **laradock** folder of our project, run the following bash script to build and run docker containers:<br><br>
+d. In **laradock** folder of our project, run the following bash script to build and run docker containers:<br><br>
 ```
 cd laradock
 ```
-
 ```
 ./createProyect.sh 
 ```
-
-5. Then, open [http://qlink/](http://qlink/) in your browser. That is all.
+e. Then, open [http://qlink/](http://qlink/) in your browser. That is all.
 
 *PD: You will also find the following scripts to re-build, stop, start and connect to the workspace by ssh (rebuildProyect.sh, stopServer.sh, startServer.sh and connectSSH.sh)*
 
