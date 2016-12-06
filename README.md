@@ -216,22 +216,22 @@ If you do not have enough time to invest in the configuration and installation o
 
 Do the following:
 
-a. Follow the steps in the [Installation](#installation) section.
+**a**. Follow the steps in the [Installation](#installation) section.
 
-b. Add this enrty in your hosts file (usually /etc/hosts):<br><br>
+**b**. Add this enrty in your hosts file (usually /etc/hosts):<br><br>
 ```
     127.0.0.1       qlink 
 ```
-c. Install and run the **Docker Engine** following the steps described in [Install Docker](https://docs.docker.com/compose/install/).
+**c**. Install and run the **Docker Engine** following the steps described in [Install Docker](https://docs.docker.com/compose/install/).
 
-d. In **laradock** folder of our project, run the following bash script to build and run docker containers:<br><br>
+**d**. In **laradock** folder of our project, run the following bash script to build and run docker containers:<br><br>
 ```
 cd laradock
 ```
 ```
 ./createProyect.sh 
 ```
-e. Then, open [http://qlink/](http://qlink/) in your browser. That is all.
+**e**. Then, open [http://qlink/](http://qlink/) in your browser. That is all.
 
 *PD: You will also find the following scripts to re-build, stop, start and connect to the workspace by ssh (rebuildProyect.sh, stopServer.sh, startServer.sh and connectSSH.sh)*
 
