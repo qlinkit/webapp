@@ -2,12 +2,12 @@
 
 ## Table of contents
 
-* [Requirements](#requ) 
-* [Installation](#inst)
-* [Configuration](#conf)
-* [Run application](#run)
-* [Dockerized application](#dock)
-* [About](#abou)
+* [Requirements](/#requ) 
+* [Installation](/#inst)
+* [Configuration](/#conf)
+* [Run application](/#run)
+* [Dockerized application](/#dock)
+* [About](/#abou)
 
 ### [Requirements](#requ)
 
@@ -216,7 +216,7 @@ If you do not have enough time to invest in the configuration and installation o
 
 Do the following:
 
-a. Run '**composer install**' as explained in the [Installation](#inst) section.
+a. Run '**composer install**' as explained in the [Installation](/#inst) section.
 
 b. Add this enrty in your hosts file (usually /etc/hosts):<br><br>
 ```
