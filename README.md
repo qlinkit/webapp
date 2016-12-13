@@ -7,6 +7,7 @@
 * [Configuration](#configuration)
 * [Run application](/#run-application)
 * [Dockerized application](#dockerized-application)
+* [Clients](#clients)
 * [About](#about)
 
 ### [Requirements](#requ)
@@ -233,7 +234,15 @@ cd laradock
 ```
 **e**. Then, open [http://qlink/](http://qlink/) in your browser. That is all.
 
+______________
+**IMPORTANT NOTE**: Only use the Dockerized application for development or testing purposes. Do not use it for a productive environment unless you take all the necessary security and configuration precautions.
+______________
+
 *PD: You will also find the following scripts to re-build, stop, start and connect to the workspace by ssh (rebuildProyect.sh, stopServer.sh, startServer.sh and connectSSH.sh)*
+
+### [Clients](#clients)
+
+1. Qlink.it client application for android [here](https://github.com/qlinkit/androidapp)
 
 ### [About](#abou)
 Qlink.it application is distributed under [MIT license](https://opensource.org/licenses/MIT). You can read more about this project at [https://qlink.it/main](https://qlink.it/main).
